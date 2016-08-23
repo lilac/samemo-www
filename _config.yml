@@ -24,7 +24,7 @@ app:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
 
-  android_apk: data/android-app-release.apk
+  android_apk: https://github.com/lilac/samemo-www/releases/download/v1-beta/samemo-v1-beta.apk
 
 #
 # Marketing
