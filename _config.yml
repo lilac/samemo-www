@@ -8,26 +8,32 @@
 # General App Info
 #
 app:
-  name: Awesome App # REQUIRED - Enter your app name
-  ios_id: 1109109105 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
-  android_id: # Optional - Enter Android app id like: com.example.app
+  name: SameMo # REQUIRED - Enter your app name
+  ios_id:  # Optional - 10 Digit Numeric App ID (lookup in iTunes Connect)
+  android_id: com.samemoment # Optional - Enter Android app id like: com.example.app
 
-  icon: # Leave blank to auto-magically populate
+  icon: images/ic_logo.png
+  # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
 
-  screenshot: # Leave blank to auto-magically populate
+  screenshot: images/SameMo_framed.png
+  # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
 
+  android_apk: data/android-app-release.apk
+
 #
 # Marketing
 #
-marketing_header: Does Awesome Stuff # Optional
-marketing_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+marketing_header: Share moments with your friends # Optional
+marketing_desc: Do you ever forget to send photos of your friends you took after
+  going back from a hangout? Or do you bother to arrange those photos you took together?
+  With the latest face recognition technology, we help you share moments to your
+  friends in a single touch.
 #
 # Social Links
 #
@@ -58,7 +64,7 @@ enable:
 # * iphone-se-space-gray-vertical
 # * ipod-touch-blue-vertical
 #
-device: iphone-se-silver-vertical # REQUIRED
+device: nexus-5x # REQUIRED
 
 #
 # Theme Settings

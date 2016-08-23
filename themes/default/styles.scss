@@ -104,8 +104,6 @@ a:hover {
 }
 
 .download-btn {
-  margin-right: 20px;
-  margin-bottom: 20px;
   border: none;
   background-color: #0191FF;
   color: #fff;
@@ -131,6 +129,11 @@ a:hover {
   {% if site.download_button_text_color %}
   color: {{ site.download_button_text_color }};
   {% endif %}
+}
+
+.store-badge {
+  width: 240px;
+  height: auto;
 }
 
 //
