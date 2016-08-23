@@ -17,13 +17,9 @@ body {
   background-color: {{ site.background_color }};
   {% endif %}
 
-  {% if site.background_image %}
-  background: linear-gradient(rgba(59, 61, 64, 0.5), rgba(59, 61, 64, 0.5)), url(../../{{ site.background_image }}) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  {% endif %}
+  background: #FFA17F; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFA17F , #00223E); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFA17F , #00223E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   {% if site.text_color %}
   color: {{ site.text_color }};
@@ -33,6 +29,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased;
 }
+
+{% if site.background_image %}
+@media (min-width: 768px) {
+  body {
+    background: linear-gradient(rgba(59, 61, 64, 0.5), rgba(59, 61, 64, 0.5)), url(../../{{ site.background_image }}) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+{% endif %}
 
 a {
   transition: all .3s;
