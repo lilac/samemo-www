@@ -15,14 +15,14 @@
                 {% if site.app.icon %} src="{{ site.app.icon }}"{% endif %}
               />
             {% endif %}
-            <span class="app-name">{{ site.app.name }}</span>
+            <span class="app-name">{{ site.app.name[page.lang] }}</span>
           </div>
 
           {% if site.marketing_header %}
-          <h2 class="marketing-header">{{ site.marketing_header }}</h2>
+          <h2 class="marketing-header">{{ site.marketing_header[page.lang] }}</h2>
           {% endif %}
 
-          <p class="marketing-desc">{{ site.marketing_desc }}</p>
+          <p class="marketing-desc">{{ site.marketing_desc[page.lang] }}</p>
           <div class="download-buttons">
             {% if site.app.ios_id %}
             <a
@@ -34,12 +34,12 @@
 
             {% if site.app.android_id %}
             <a href="https://play.google.com/store/apps/details?id={{ site.app.android_id }}">
-              <img class="store-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+              <img class="store-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/{{ page.lang }}_badge_web_generic.png'/>
             </a>
             <a
               class="download-btn btn btn-lg"
               href="{{ site.app.android_apk }}">
-              <i class="fa fa-android fa-lg" aria-hidden="true"></i> Download
+              <i class="fa fa-android fa-lg" aria-hidden="true"></i> {{ site.t.download[page.lang] }}
             </a>
             {% endif %}
           </div>

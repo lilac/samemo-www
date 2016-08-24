@@ -8,7 +8,9 @@
 # General App Info
 #
 app:
-  name: SameMo # REQUIRED - Enter your app name
+  name:
+    en: SameMo # REQUIRED - Enter your app name
+    zh-cn: 同乐
   ios_id:  # Optional - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: com.samemoment # Optional - Enter Android app id like: com.example.app
 
@@ -29,11 +31,19 @@ app:
 #
 # Marketing
 #
-marketing_header: Share moments with your friends # Optional
-marketing_desc: Do you ever forget to send photos of your friends you took after
-  going back from a hangout? Or do you bother to arrange those photos you took together?
-  With the latest face recognition technology, we help you share moments to your
-  friends in a single touch.
+marketing_header:
+  en: Share moments with your friends # Optional
+  zh-cn: 与朋友分享你们的共同回忆
+
+marketing_desc:
+  en: "Do you ever forget to send photos of your friends you took after
+    going back from a hangout? Or do you bother to arrange those photos you took together?
+    With the latest face recognition technology, we help you share moments to your
+    friends in a single touch."
+  zh-cn: "有多少次你和朋友出去玩耍，一起拍摄了许多相片，并承诺回去后会将你拍的相片分享给他们，然而回去后却忘记了吗？
+    或许你有太多照片需要整理，却懒得将它们按人物分类？『同乐』使用最新的人脸识别技术，助你轻易分享
+    与朋友的共同回忆。"
+
 #
 # Social Links
 #
@@ -84,6 +94,11 @@ download_button_text_color: white; # Optional
 #
 title: # Optional - Enter your site title
 description: # Optional - Enter your site description
+
+t:
+  download:
+    en: Download
+    zh-cn: 下载
 
 #
 # Google Analytics
