@@ -144,6 +144,22 @@ a:hover {
   height: auto;
 }
 
+.lang-selector {
+  display: inline-block;
+  margin-left: 20px;
+}
+.lang-selector>li {
+  padding: 0px;
+}
+.lang-selector a {
+  color: #aaa;
+  font-size: 18px;
+}
+.en:lang(en), .zh-cn:lang(zh-cn){
+  font-weight: bold;
+  color: #fff;
+}
+
 //
 // Social
 //

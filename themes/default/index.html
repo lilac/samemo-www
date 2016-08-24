@@ -16,6 +16,7 @@
               />
             {% endif %}
             <span class="app-name">{{ site.app.name[page.lang] }}</span>
+            {% include lang-selector.html %}
           </div>
 
           {% if site.marketing_header %}

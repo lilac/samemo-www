@@ -99,6 +99,9 @@ t:
   download:
     en: Download
     zh-cn: 下载
+  lang:
+    en: en
+    zh-cn: 中
 
 #
 # Google Analytics
