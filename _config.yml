@@ -20,7 +20,12 @@ app:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
 
-  screenshot: images/SameMo_framed.png
+  screenshot:
+    - images/moments.png
+    - images/contacts.png
+    - images/profile.png
+    - images/notification.png
+
   # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png

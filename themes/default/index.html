@@ -52,10 +52,11 @@
 
         <!-- App Screenshot(s) -->
         <div class="device {{ site.device }}">
-          <img
+          <!-- <img
             class="app-screenshot"
             {% if site.app.screenshot %}src="{{ site.app.screenshot }}"{% endif %}
-          />
+          /> -->
+          {% include carousel.html %}
         </div>
       </div>
     </div>

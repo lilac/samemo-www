@@ -198,6 +198,12 @@ a:hover {
   margin: auto;
 }
 
+.carousel-control {
+  &.left, &.right {
+    background-image: none;
+  }
+}
+
 //
 // large screens
 //
