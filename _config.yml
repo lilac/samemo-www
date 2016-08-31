@@ -98,7 +98,9 @@ download_button_text_color: white; # Optional
 # If you want specific meta info for your <head></head> tags
 #
 title: # Optional - Enter your site title
-description: # Optional - Enter your site description
+description:
+  en: "This app helps you share moments with friends, and get the photos you didn't take. Powered by face recognition technology."
+  zh-cn: "同乐－－照片分享利器。使用人脸识别技术，助您轻易与朋友分享你们的共同回忆，获取别人拍的你的相片。"
 
 t:
   download:
