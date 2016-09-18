@@ -31,7 +31,7 @@ app:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
 
-  android_apk: https://github.com/lilac/samemo-www/releases/download/v1.1/samemo-v1.1.apk
+repo: lilac/samemo-www
 
 #
 # Marketing
@@ -99,7 +99,7 @@ download_button_text_color: white; # Optional
 #
 title: # Optional - Enter your site title
 description:
-  en: "This app helps you share moments with friends, and get the photos you didn't take. Powered by face recognition technology."
+  en: "SameMo helps you share moments with friends, and get the photos you didn't take. Powered by face recognition technology."
   zh-cn: "同乐－－照片分享利器。使用人脸识别技术，助您轻易与朋友分享你们的共同回忆，获取别人拍的你的相片。"
 
 t:

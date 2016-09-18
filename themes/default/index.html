@@ -37,9 +37,12 @@
             <a href="https://play.google.com/store/apps/details?id={{ site.app.android_id }}">
               <img class="store-badge" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/{{ page.lang }}_badge_web_generic.png'/>
             </a>
-            <a
+            {% endif %}
+
+            {% if site.repo %}
+            <a id="release"
               class="download-btn btn btn-lg"
-              href="{{ site.app.android_apk }}">
+              href="https://github.com/{{ site.repo }}/releases/latest">
               <i class="fa fa-android fa-lg" aria-hidden="true"></i> {{ site.t.download[page.lang] }}
             </a>
             {% endif %}

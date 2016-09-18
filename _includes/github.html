@@ -1,0 +1,15 @@
+{% if site.repo %}
+  <!-- Github release integration -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+        SetLatestReleaseUrl('{{ site.repo }}');
+    });
+
+    function SetLatestReleaseUrl(repo) {
+        $.getJSON("https://api.github.com/repos/" + repo + "/releases/latest").done(function (release) {
+            var asset = release.assets[0];
+            $("a#release").attr("href", asset.browser_download_url);
+        });
+    }
+  </script>
+{% endif %}
