@@ -11,7 +11,7 @@ app:
   name:
     en: SameMo # REQUIRED - Enter your app name
     zh-cn: 同乐
-  ios_id:  # Optional - 10 Digit Numeric App ID (lookup in iTunes Connect)
+  ios_id: 1165949369 # Optional - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: com.samemoment # Optional - Enter Android app id like: com.example.app
 
   icon: images/ic_logo.png
