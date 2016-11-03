@@ -21,10 +21,17 @@ app:
   # 512px or greater, square
 
   screenshot:
-    - images/moments.png
-    - images/contacts.png
-    - images/profile.png
-    - images/notification.png
+    en:
+      - images/moments.png
+      - images/contacts.png
+      - images/profile.png
+      - images/notification.png
+    zh-cn:
+      - images/zh-cn/moments.png
+      - images/zh-cn/notification.png
+      - images/zh-cn/contacts.png
+      - images/zh-cn/chats.png
+      - images/zh-cn/profile.png
 
   # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
