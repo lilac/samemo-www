@@ -59,5 +59,6 @@
 
 .post {
   width: 77%;
+  max-width: 680px;
   margin: 0 auto;
 }
