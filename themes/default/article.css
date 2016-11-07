@@ -1,0 +1,63 @@
+/* Article Stuff */
+.article {
+  position: relative;
+  margin-bottom: 33px;
+}
+.article .overlay {
+  vertical-align: middle;
+  min-height: 360px;
+  height: 50vh;
+  width: 100%;
+  max-height: 800px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.55);
+}
+.article .overlay-lighter {
+  background: rgba(0, 0, 0, 0.1);
+}
+.article .featured-image {
+  vertical-align: middle;
+  min-height: 360px;
+  height: 50vh;
+  width: 100%;
+  max-height: 800px;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+.article .featured-image img {
+  max-height: 800px;
+}
+.article header {
+  margin: 66px 0 33px 0;
+}
+.article header hgroup {
+  color: #3b3b3b;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
+.article header hgroup .date {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #d9d9d9;
+  text-transform: uppercase;
+  margin-top: 22px;
+}
+/*.article header .intro {
+  text-align: left;
+}*/
+
+.post {
+  width: 77%;
+  margin: 0 auto;
+}
